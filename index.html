@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Validation</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box">
+            <div class="pass-field">
+                <input type="password" name="password" id="passWord" placeholder="Create new Password">
+                <i class="fa-solid fa-eye"></i>
+            </div>
+            <div class="requirement-field">
+                <p>Password must contains</p>
+                <ul class="requirement-list">
+                    <li>
+                        <i class="fa-solid fa-circle"></i>
+                        <span>At least contains 8 character</span>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-circle"></i>
+                        <span>At least contains 1 upper case (A...Z)</span>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-circle"></i>
+                        <span>At least contains 1 lower case (a...z)</span>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-circle"></i>
+                        <span>At least contains 1 number (0...9)</span>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-circle"></i>
+                        <span>At least contains 1 symbol (!...$)</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
