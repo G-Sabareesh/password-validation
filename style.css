@@ -61,14 +61,16 @@ body {
   width: 20px;
 }
 .requirement-list li.valid i {
-  font-size: 0.6rem;
-  color: #4285f4;
+  font-size: 1rem;
+  color: rgb(55, 236, 55);
 }
 .requirement-list li span {
   margin-left: 12px;
 }
 .requirement-list li.valid span {
-  color: #999;
+  color: rgb(106, 124, 106);
+  text-decoration: line-through;
+  transition: all 0.5s ease-in;
 }
 @media screen and (max-width: 500px) {
   body,
